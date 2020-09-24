@@ -1,0 +1,10 @@
+(a) There are 7 commits total.
+(b) Jan 24, 2017
+(c) Git Log displays the committed snapshots history, allowing you to list the history of the project and filter it.
+	Git Status displays the current working directory and staging area.
+(d) An unstaged files exist in the working directory but have not been recorded to Git yet.
+	An untracked file is one that was not in the previous commit snapshot, a new file for example.
+(e) Git checkout allows you to navigate between git branches and review commits.  It also will update the files in working directory to the stored version.
+	Git reset is used to undo local changes to the state of a Git repo.  Reset operated on the HEAD, Staing Index, and Working Directory.
+(f) It depends on rather or not the files that are uncommited overlap with the remote changes.  If there is no overlap then the pull works fine.  If there is overlap you 
+		will get an error requesting you to commit the changes.
