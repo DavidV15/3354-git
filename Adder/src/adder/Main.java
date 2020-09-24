@@ -8,7 +8,9 @@ public class Main {
             System.out.println(result);
         } catch (Exception e) {
             System.err.println("Please provide at least two integers to add");
-        }
+        } catch (NumberFormatException e){
+			System.err.println("Please enter integers only");
+		}
     }
 
     private static int addArguments(String[] args) {
