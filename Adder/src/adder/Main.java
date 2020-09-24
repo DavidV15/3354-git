@@ -6,7 +6,7 @@ public class Main {
         try {
             int result = addArguments(args);
             System.out.println(result);
-        } catch (Exception e) {
+        } catch (ArrayIndexOutOfBoundsException e) {
             System.err.println("Please provide at least two integers to add");
         } catch (NumberFormatException e){
 			System.err.println("Please enter integers only");
