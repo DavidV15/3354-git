@@ -10,8 +10,8 @@ public class Main {
             System.out.println(result);
         } catch (ArrayIndexOutOfBoundsException e) {
             System.err.println("Please provide at least two integers to add.");
-        } catch (NumberFormatException e) {
-			System.err.println("Invalid character format.");
+        } catch (ArithmeticException e) {
+			System.err.println("Invalid operation, please try again.");
 		}
     }
 
